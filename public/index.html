@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>AI Notes App</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>AI Notes App</h1>
+    
+    
+    <input id="title" placeholder="Enter note title..." />
+    <textarea id="content" placeholder="Write your note..."></textarea>
+
+    <div class="buttons">
+      <button id="save">Save Note</button>
+      <button id="summarize">Summarize with AI</button>
+    </div>
+
+    <div id="summaryBox" class="hidden">
+      <h3>AI Summary:</h3>
+      <div id="summary"></div>
+    </div>
+
+    <h2>Your Notes</h2>
+    <ul id="notesList"></ul>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
